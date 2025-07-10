@@ -14,5 +14,5 @@ class Recepcion:
         atendido= self.cola_pacientes.popleft()
         print(f"[RECEPCION] Paciente atentido;{atendido}")
         else:
-        print
+        print()
 
